@@ -2,3 +2,13 @@
 *{
 	background-color:rgb(135, 206, 235);
 }
+#list{
+	background-color:gray;
+	
+}
+#list:nth-child(odd){
+	background-color:white;
+}
+#list:first-child, last-child{
+	font-size:20px;
+}
